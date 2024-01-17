@@ -17,3 +17,7 @@ game = StableMarriage.create_from_dictionaries(project_preferences,
                                                student_preferences)
 result = game.solve()
 print(result)
+
+# I got the following result
+# {p1: s1, p2: s2, p3: s3}
+# which is what I expected
