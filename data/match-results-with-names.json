@@ -1,0 +1,117 @@
+{
+    "1: Object Tracking": [
+        "Rafe Covin",
+        "Magnus O'Connor",
+        "Mitra Kian",
+        "Mason Taragos",
+        "Lauren Couillard"
+    ],
+    "2: Quadrotor": [
+        "Nicholas Navarrete",
+        "Benjamin Carpenter",
+        "Nashaat Lubada",
+        "Nathan Holzem",
+        "Seungho Shin"
+    ],
+    "3: RFID Monitoring": [
+        "Jazmin Medina Banuelos",
+        "Julia Bauroth",
+        "Jacob Secunda",
+        "Cyprian Maranga"
+    ],
+    "4: Text Summarization": [
+        "Brayden Doyle"
+    ],
+    "5: Tabletop MRI": [
+        "Jack Smith",
+        "Kaiza Haque",
+        "Minh Doan",
+        "Michael Morgovsky",
+        "Ian Smith"
+    ],
+    "6: GenAI Agents": [
+        ""
+    ],
+    "7: AI Assistant": [
+        ""
+    ],
+    "8: Robotic Arm": [
+        "Donovan Magney",
+        "Faisal Khater",
+        "Hunter Jans",
+        "Peter Tran",
+        "Jack Struck"
+    ],
+    "9: Raspberry PI Supercomputer": [
+        "Cory Bisson",
+        "Jacob Laupan",
+        "Logan Miller",
+        "Nathan Redfern",
+        "Ben Deyle"
+    ],
+    "10: Spectrum Analyzer": [
+        "Curtis Hance",
+        "Njoud Alalawi",
+        "Andrew Danciak",
+        "Max Percy",
+        "Hershen Nair"
+    ],
+    "11: SunGuard": [
+        "Andrew Forness",
+        "Cade Roggenbauer",
+        "Olivia Bowser",
+        "Tori Sigfrid",
+        "Kavin Muhil Ramesh"
+    ],
+    "12: 2D Assembly Platform": [
+        "Abraham Jaeger Mountain",
+        "Beka"
+    ],
+    "13: AI Racing League": [
+        "Austin Thom",
+        "Jonathan Olaleye",
+        "Adnan Qutob",
+        "Ryan Kelsey",
+        "Jared Schultz"
+    ],
+    "14: Pronunciation Tool": [
+        "Emily Schaefer",
+        "Rachel Ward",
+        "Susanna Fish",
+        "Anh Lam"
+    ],
+    "15: FMCW Radar": [
+        "Charles Kennedy",
+        "Ethan Polcyn",
+        "Benjamin Meyers",
+        "Brian Reichert",
+        "Christian Paulik"
+    ],
+    "16: Mag Particle Spectroscopy": [
+        "Aaron Knoll",
+        "Nicholas Hetchler",
+        "Austin Friesenhahn",
+        "Maddie Rowe",
+        "Megan Adamek"
+    ],
+    "17: Object Detection FPGA": [
+        "Louis Diomande",
+        "Johnathon McCready",
+        "John Stolzberg-Schray",
+        "Jacob Johnson",
+        "Ryan Belmont"
+    ],
+    "18: Electrical Drive": [
+        "Jiarui Zhao"
+    ],
+    "19: Vision Measurement": [
+        "Poju Huang"
+    ],
+    "20: 3D Digital Microscope": [
+        "Alex Hawkins",
+        "Rafael Avelar Batista de Jesus",
+        "Isaiah Bryn",
+        "Sam Younglove",
+        "Ella Finnega"
+    ]
+}

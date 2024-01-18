@@ -2,24 +2,24 @@ from matching.games import HospitalResident
 
 # Example data
 student_preferences = {
-    "Aaron Knoll": ['16', '5', '9', '18', '203'],
+    "Aaron Knoll": ['16', '5', '9', '18', '20'],
     "Donovan Magney": ['8', '9', '2', '13', '17'],
     "Louis Diomande": ['17', '3', '11', '1', '6'],
     "Charles Kennedy": ['15', '6', '10', '17', '4'],
     "Faisal Khater": ['8', '11', '18', '9', '15'],
     "Andrew Forness": ['11', '10', '3', '2', '15'],
-    "Nicholas Hetchler": ['16', '15', '3', '203', '2'],
-    "Alex Hawkins": ['203', '3', '8', '5', '14'],
+    "Nicholas Hetchler": ['16', '15', '3', '20', '2'],
+    "Alex Hawkins": ['20', '3', '8', '5', '14'],
     "Hunter Jans": ['8', '9', '11', '1', '3'],
     "Rafe Covin": ['1', '3', '11', '14', '13'],
-    "Cade Roggenbauer": ['11', '203', '7', '14', '1'],
+    "Cade Roggenbauer": ['11', '20', '7', '14', '1'],
     "Curtis Hance": ['10', '15', '14', '11', '4'],
     "Olivia Bowser": ['11', '14', '15', '6', '1'],
     "Ethan Polcyn": ['15', '5', '16', '9', '10'],
-    "Johnathon McCready": ['17', '11', '4', '203', '10'],
+    "Johnathon McCready": ['17', '11', '4', '20', '10'],
     "Austin Friesenhahn": ['16', '10', '15', '5', '9'],
     "Cory Bisson": ['9', '3', '11', '18', '5'],
-    "Rafael Avelar Batista de Jesus": ['203', '8', '1', '19', '13'],
+    "Rafael Avelar Batista de Jesus": ['20', '8', '1', '19', '13'],
     "Jack Smith": ['5', '18', '3', '2', '8'],
     "Peter Tran": ['8', '11', '3', '5', '1'],
     "Nicholas Navarrete": ['2', '8', '15', '16', '5'],
@@ -30,13 +30,13 @@ student_preferences = {
     "Minh Doan": ['5', '1', '15', '10', '8'],
     "Michael Morgovsky": ['5', '1', '15', '10', '9'],
     "Austin Thom": ['13', '8', '19', '18', '11'],
-    "Njoud Alalawi": ['10', '11', '19', '17', '122'],
+    "Njoud Alalawi": ['10', '11', '19', '17', '12'],
     "Jacob Johnson": ['17', '10', '16', '5', '3'],
     "Ryan Belmont": ['17', '10', '16', '5', '3'],
     "Ian Smith": ['5', '1', '10', '3', '17'],
     "Logan Miller": ['9', '8', '17', '11', '13'],
     "Maddie Rowe": ['16', '5', '10', '11', '9'],
-    "Isaiah Bryn": ['203', '11', '10', '15', '19'],
+    "Isaiah Bryn": ['20', '11', '10', '15', '19'],
     "Nathan Redfern": ['9', '13', '10', '17', '8'],
     "Jack Struck": ['5', '8', '9', '10', '18'],
     "Ben Deyle": ['9', '13', '10', '17', '8'],
@@ -47,13 +47,13 @@ student_preferences = {
     "Seungho Shin": ['2', '13', '11', '6', '8'],
     "Magnus O'Connor": ['17', '11', '1', '10', '15'],
     "Jonathan Olaleye": ['13', '8', '17', '2', '9'],
-    "Sam Younglove": ['8', '2', '9', '203', '13'],
+    "Sam Younglove": ['8', '2', '9', '20', '13'],
     "Jazmin Medina Banuelos": ['11', '8', '5', '3', '15'],
     "Adnan Qutob": ['13', '11', '9', '2', '4'],
     "Brayden Doyle": ['4', '6', '11', '13', '7'],
     "Ryan Kelsey": ['13', '11', '6', '2', '4'],
-    "Jiarui Zhao": ['18', '14', '17', '122', '13'],
-    "Megan Adamek": ['5', '16', '3', '203', '8'],
+    "Jiarui Zhao": ['18', '14', '17', '12', '13'],
+    "Megan Adamek": ['5', '16', '3', '20', '8'],
     "Poju Huang": ['8', '19', '17', '1', '10'],
     "Benjamin Meyers": ['8', '9', '16', '15', '11'],
     "Emily Schaefer": ['8', '9', '5', '14', '13'],
@@ -63,14 +63,14 @@ student_preferences = {
     "Lauren Couillard": ['17', '11', '5', '1', '16'],
     "Julia Bauroth": ['8', '5', '11', '2', '3'],
     "Rachel Ward": ['5', '16', '8', '14', '9'],
-    "Ella Finnegan": ['17', '5', '9', '16', '203'],
-    "Christian Paulik": ['5', '15', '17', '14', '122'],
-    "Jedidiah Pratt": ['8', '9', '203', '11', '15'],
+    "Ella Finnegan": ['17', '5', '9', '16', '20'],
+    "Christian Paulik": ['5', '15', '17', '14', '12'],
+    "Jedidiah Pratt": ['8', '9', '20', '11', '15'],
     "Andrew Danciak": ['10', '17', '9', '16', '8'],
-    "Abraham Jaeger Mountain": ['5', '15', '17', '122', '14'],
+    "Abraham Jaeger Mountain": ['5', '15', '17', '12', '14'],
     "Andy Lambrecht": ['11', '5', '2', '8', '17'],
     "Jared Schultz": ['8', '9', '2', '13', '3'],
-    "Hunter Berger": ['8', '9', '203', '11', '15'],
+    "Hunter Berger": ['8', '9', '20', '11', '15'],
     "Jacob Secunda": ['11', '8', '2', '3', '17'],
     "Samuel Rose": ['13', '8', '17', '2', '1'],
     "Cyprian Maranga": ['3', '11', '1', '5', '16'],
@@ -80,8 +80,8 @@ student_preferences = {
     "Anh Lam": ['11', '14', '3', '8', '4'],
     "Cameron Wolf": ['17', '13', '11', '9', '8'],
     "Hershen Nair": ['2', '5', '17', '10', '9'],
-    "Chris Michalski": ['203', '17', '9', '5', '2'],
-    "Beka": ['2', '11', '122', '18', '16'],
+    "Chris Michalski": ['20', '17', '9', '5', '2'],
+    "Beka": ['2', '11', '12', '18', '16'],
     "Joseph Renk": ['11', '10', '15', '1', '8'],
     "Brennan Neuser": ['13', '9', '2', '8', '17']
 }
@@ -135,11 +135,13 @@ project_capacities = {
     '20': 5}
 
 # Create the game and solve it
-#game = HospitalResident.create_from_dictionaries(
-#    student_preferences, project_preferences, project_capacities
-#)
-#matching = game.solve()
+game = HospitalResident.create_from_dictionaries(
+    student_preferences, project_preferences, project_capacities
+)
+matching = game.solve()
 
-print(all_students)
-# I got: {Project1: [Alice], Project2: [Bob], Project3: [Charlie]}
-# which is correct
+#print(len(all_students))
+#print(len(project_preferences))
+#print(len(project_capacities))
+# print(all_students[0:3])
+print(matching)
